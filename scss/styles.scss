@@ -26,9 +26,46 @@ body {
   height: 600px;
   background-size: cover;
   .container h1 {
-    padding-top: 250px;
+    padding-top: 192px;
     color: white;
     font-size: 4em;
     width: 70%;
+    font-weight: 400;
   }
+  .container p {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 25px;
+    width: 50%;
+  }
+}
+
+.trabajos {
+  width: 100%;
+  background-color: white;
+  height: 500px;
+}
+
+.servicios {
+  width: 100%;
+  background-color: $blue;
+  height: 500px;
+}
+
+.team {
+  width: 100%;
+  background-color: white;
+  height: 500px;
+}
+
+.contacto {
+  width: 100%;
+  background-color: $pink;
+  height: 500px;
+}
+
+footer {
+  width:100%;
+  background-color: $dark-blue;
+  height: 250px;
 }

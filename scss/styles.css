@@ -42,40 +42,9 @@ body {
   height: 600px;
   background-size: cover; }
   .banner .container h1 {
-    padding-top: 192px;
+    padding-top: 250px;
     color: white;
     font-size: 4em;
-    width: 70%;
-    font-weight: 400; }
-  .banner .container p {
-    color: white;
-    font-size: 1.5em;
-    padding-top: 25px;
-    width: 50%; }
-
-.trabajos {
-  width: 100%;
-  background-color: white;
-  height: 500px; }
-
-.servicios {
-  width: 100%;
-  background-color: #70798c;
-  height: 500px; }
-
-.team {
-  width: 100%;
-  background-color: white;
-  height: 500px; }
-
-.contacto {
-  width: 100%;
-  background-color: #c38d94;
-  height: 500px; }
-
-footer {
-  width: 100%;
-  background-color: #2f323a;
-  height: 250px; }
+    width: 70%; }
 
 /*# sourceMappingURL=styles.css.map */
