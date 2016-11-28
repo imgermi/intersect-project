@@ -1,7 +1,7 @@
 <header class="main-nav">
   <div class="container">
 
-    <a id="logo-click" href="#logo-click"><img class="logo" src="img/reduced-redicon.png" alt=""></a>
+    <a id="logo-click" href="#logo-click"><img class="logo" src="img/reduced-redicon.svg" alt=""></a>
 
     <nav>
       <ul>

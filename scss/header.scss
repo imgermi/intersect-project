@@ -23,6 +23,10 @@
         color: $dark-blue;
         padding: 0 20px;
         font-size: 1.2em;
+        transition: 200ms ease-in-out;
+        &:hover{
+          color: $green;
+        }
       }
       #menu-4 {
         padding-right: 0px;

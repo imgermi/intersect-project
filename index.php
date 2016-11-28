@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Intersect Project</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   </head>
   <body>
@@ -139,7 +140,18 @@
     <!-- FOOTER -->
     <footer>
       <div class="container">
-
+        <img class="footer-logo" src="img/reduced-greyicon.svg" alt="">
+        <ul>
+          <li><span class="ion-social-facebook"></span></li>
+          <li><span class="ion-social-twitter"></span></li>
+          <li><span class="ion-social-instagram"></span></li>
+          <li><span class="ion-social-linkedin"></span></li>
+          <li><span class="ion-social-youtube"></span></li>
+        </ul>
+        <div class="borde"></div>
+        <p>011 4682 0045</p>
+        <span class="info">Valle 423, CABA</span>
+        <span class="info">Intersect - 2016</span>
       </div>
     </footer>
 
