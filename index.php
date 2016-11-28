@@ -156,7 +156,7 @@
     </footer>
 
 
-    <script src="jquery-3.1.1.js"></script>
+    <script src="jquery-3.1.1.min.js"></script>
     <script type="text/javascript">
 
     $(document).ready(function (){
