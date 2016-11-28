@@ -76,7 +76,7 @@
     <section class="team">
       <div class="container">
         <h2>TEAM</h2>
-        
+
         <!-- FIRST FILA -->
         <article class="team-note team-margin">
 
@@ -144,7 +144,7 @@
     </footer>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="jquery-3.1.1.js"></script>
     <script type="text/javascript">
 
     $(document).ready(function (){
