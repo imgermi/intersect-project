@@ -144,7 +144,7 @@
     <!-- FOOTER -->
     <footer>
       <div class="container">
-        <img class="footer-logo" src="img/reduced-greyicon.svg" alt="">
+        <img class="footer-logo" src="img/reduced-greyicon.png" alt="">
         <ul>
           <li><span class="ion-social-facebook"></span></li>
           <li><span class="ion-social-twitter"></span></li>
