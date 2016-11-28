@@ -1,5 +1,23 @@
 @import "colors.scss";
 
+.mobile-ul {
+  display: none;
+  position: fixed;
+  top:70px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2000;
+  background-color: $blue;
+  padding: 50px;
+  li {
+    margin-bottom: 15px;
+    a{
+      color: $white-footer;
+    }
+  }
+}
+
 .main-nav {
   width: 100%;
   background-color: white;
@@ -17,6 +35,9 @@
     position: absolute;
     right: 0%;
     bottom: 26%;
+    .ion-android-menu {
+      display: none;
+    }
     ul li {
       display: inline;
       a {
@@ -32,5 +53,19 @@
         padding-right: 0px;
       }
     }
+  }
+}
+
+@media(max-width:768px) {
+  .main-nav nav ul {
+    display: none;
+  }
+  .main-nav nav .ion-android-menu {
+    display: block;
+    position: absolute;
+    right: 0%;
+    margin-top: -20px;
+    color: $dark-blue;
+    font-size: 2em;
   }
 }

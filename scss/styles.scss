@@ -221,5 +221,109 @@ footer {
     font-size: 1.2em;
     margin-bottom: 20px;
   }
+}
 
+@media(max-width:768px) {
+  body{
+    font-size: 12px;
+  }
+  .container {
+    max-width: 95%;
+  }
+  .banner {
+    height: 700px;
+    .container h1 {
+      padding-top: 130px;
+      width:100%;
+    }
+    .container img {
+      width: 15px;
+    }
+    .container p {
+      width: 60%;
+      margin-bottom: 30px;
+    }
+  }
+  .trabajos {
+    .proceso-cta {
+      width: 50%;
+    }
+  }
+  .servicios {
+    .service-note {
+      width: 49%;
+      margin-bottom: 10px;
+      &:last-child {
+        clear: both;
+        display: block;
+        margin: 0px auto 0px auto;
+        width: 99%;
+      }
+    }
+  }
+  .team {
+    .team-cleaner {
+      clear: both;
+    }
+    .team-note {
+      width: 100%;
+    }
+    .team-margin{
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+}
+
+@media(max-width:480px) {
+  .banner {
+    .container p {
+      width: 100%;
+    }
+  }
+  .trabajos {
+    .proceso-cta {
+      width: 100%;
+    }
+    .nota {
+      height: 150px;
+      width: 100%;
+      margin-bottom: 60px;
+    }
+  }
+  .servicios {
+    .service-note {
+      width: 100%;
+    }
+  }
+  .contacto {
+    .contact-form {
+      .campos {
+        width: 100%;
+      }
+      .boton {
+        width: 100%;
+      }
+    }
+  }
+  footer {
+    ul {
+    left: 0;
+    top: 80px;
+    li span {
+      font-size: 2.5em;
+    }
+    }
+    .borde {
+      margin:110px 0px 40px 0px;
+    }
+  }
+}
+
+@media(max-width:350px) {
+  .banner {
+    .container h1 {
+      font-size: 3em;
+    }
+  }
 }

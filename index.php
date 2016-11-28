@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Intersect Project</title>
   </head>
@@ -87,9 +88,12 @@
 
         </article>
 
+
         <article class="team-note">
 
         </article>
+
+
 
 
         <!-- SECOND FILA -->
@@ -159,6 +163,16 @@
     <script src="jquery-3.1.1.min.js"></script>
     <script type="text/javascript">
 
+    $('.ion-android-menu').click(function() {
+      if ($('.mobile-ul').is(':hidden')) {
+        $('.mobile-ul').slideDown(function() {
+        });
+      }
+      else {
+        $('.mobile-ul').slideUp();
+      }
+    });
+
     $(document).ready(function (){
       $("#menu-1").click(function (){
           $('html, body').animate({
@@ -167,13 +181,7 @@
       });
     });
 
-    $(document).ready(function (){
-      $("#menu-2").click(function (){
-          $('html, body').animate({
-              scrollTop: $(".servicios").offset().top
-          }, 500);
-      });
-    });
+
 
     $(document).ready(function (){
       $("#menu-3").click(function (){
@@ -183,6 +191,16 @@
       });
     });
 
+
+    $(document).ready(function (){
+      $("#menu-2").click(function (){
+          $('html, body').animate({
+              scrollTop: $(".servicios").offset().top
+          }, 500);
+      });
+    });
+
+
     $(document).ready(function (){
       $("#menu-4").click(function (){
           $('html, body').animate({
@@ -190,6 +208,42 @@
           }, 500);
       });
     });
+
+    //MOBILE
+
+    $(document).ready(function (){
+      $("#menu-1-mobile").click(function (){
+          $('html, body').animate({
+              scrollTop: $(".trabajos").offset().top
+          }, 500);
+      });
+    });
+
+    $(document).ready(function (){
+      $("#menu-2-mobile").click(function (){
+          $('html, body').animate({
+              scrollTop: $(".servicios").offset().top
+          }, 500);
+      });
+    });
+
+    $(document).ready(function (){
+      $("#menu-3-mobile").click(function (){
+          $('html, body').animate({
+              scrollTop: $(".team").offset().top
+          }, 500);
+      });
+    });
+
+    $(document).ready(function (){
+      $("#menu-4-mobile").click(function (){
+          $('html, body').animate({
+              scrollTop: $(".contacto").offset().top
+          }, 500);
+      });
+    });
+
+
 
     $(document).ready(function (){
       $("#logo-click").click(function (){

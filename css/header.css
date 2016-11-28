@@ -1,3 +1,18 @@
+.mobile-ul {
+  display: none;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2000;
+  background-color: #70798c;
+  padding: 50px; }
+  .mobile-ul li {
+    margin-bottom: 15px; }
+    .mobile-ul li a {
+      color: #c5cbd3; }
+
 .main-nav {
   width: 100%;
   background-color: white;
@@ -14,6 +29,8 @@
     position: absolute;
     right: 0%;
     bottom: 26%; }
+    .main-nav nav .ion-android-menu {
+      display: none; }
     .main-nav nav ul li {
       display: inline; }
       .main-nav nav ul li a {
@@ -25,5 +42,17 @@
           color: #a1cca5; }
       .main-nav nav ul li #menu-4 {
         padding-right: 0px; }
+
+@media (max-width: 768px) {
+  .main-nav nav ul {
+    display: none; }
+
+  .main-nav nav .ion-android-menu {
+    display: block;
+    position: absolute;
+    right: 0%;
+    margin-top: -20px;
+    color: #2f323a;
+    font-size: 2em; } }
 
 /*# sourceMappingURL=header.css.map */
