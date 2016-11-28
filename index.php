@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Intersect Project</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Intersect Project</title>
   </head>
   <body>
     <?php include 'header.php'; ?>
