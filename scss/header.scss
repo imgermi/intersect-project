@@ -8,12 +8,13 @@
   width: 100%;
   text-align: center;
   z-index: 2000;
-  background-color: $blue;
+  background-color:white;
   padding: 50px;
   li {
     margin-bottom: 15px;
     a{
-      color: $white-footer;
+      color: $blue;
+      font-size: 1.3em;
     }
   }
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta name=viewport content="width=device-width, initial-scale=1">

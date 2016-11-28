@@ -6,12 +6,13 @@
   width: 100%;
   text-align: center;
   z-index: 2000;
-  background-color: #70798c;
+  background-color: white;
   padding: 50px; }
   .mobile-ul li {
     margin-bottom: 15px; }
     .mobile-ul li a {
-      color: #c5cbd3; }
+      color: #70798c;
+      font-size: 1.3em; }
 
 .main-nav {
   width: 100%;
