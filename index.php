@@ -6,6 +6,7 @@
     <link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <META HTTP-EQUIV="EXPIRES" CONTENT="3600">
     <title>Intersect Project</title>
   </head>
   <body>
