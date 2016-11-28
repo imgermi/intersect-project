@@ -1,9 +1,12 @@
+@import "colors.scss";
+
 .main-nav {
   width: 100%;
   background-color: white;
+  z-index: 1000;
   height: 70px;
   padding: 12px 0;
-  box-shadow: 0 0 1px rgba(0,65,94,0.2);
+  box-shadow: 0 0 5px rgba(0,65,94,0.2);
   position: fixed;
   top: 0;
   bottom: 0;
@@ -12,7 +15,7 @@
   }
   nav {
     position: absolute;
-    right: 0;
+    right: 0%;
     bottom: 26%;
     ul li {
       display: inline;
@@ -20,6 +23,9 @@
         color: $dark-blue;
         padding: 0 20px;
         font-size: 1.2em;
+      }
+      #menu-4 {
+        padding-right: 0px;
       }
     }
   }

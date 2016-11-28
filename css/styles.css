@@ -1,9 +1,10 @@
 .main-nav {
   width: 100%;
   background-color: white;
+  z-index: 1000;
   height: 70px;
   padding: 12px 0;
-  box-shadow: 0 0 1px rgba(0, 65, 94, 0.2);
+  box-shadow: 0 0 5px rgba(0, 65, 94, 0.2);
   position: fixed;
   top: 0;
   bottom: 0; }
@@ -11,7 +12,7 @@
     width: 200px; }
   .main-nav nav {
     position: absolute;
-    right: 0;
+    right: 0%;
     bottom: 26%; }
     .main-nav nav ul li {
       display: inline; }
@@ -19,17 +20,24 @@
         color: #2f323a;
         padding: 0 20px;
         font-size: 1.2em; }
+      .main-nav nav ul li #menu-4 {
+        padding-right: 0px; }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px; }
+  font-size: 10px;
+  color: #2f323a; }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style-type: none; }
+  list-style-type: none;
+  font-weight: 400; }
+
+.cleaner {
+  clear: both; }
 
 .container {
   max-width: 1000px;
@@ -51,27 +59,120 @@ body {
     color: white;
     font-size: 1.5em;
     padding-top: 25px;
-    width: 50%; }
+    width: 50%;
+    margin-bottom: 60px; }
+  .banner .container p:last-child {
+    font-size: 1em;
+    padding-top: 20px; }
+
+.trabajos:after, .servicios:after, .team:after {
+  display: block;
+  clear: both;
+  content: ""; }
 
 .trabajos {
   width: 100%;
   background-color: white;
-  height: 500px; }
+  padding: 100px 0px; }
+  .trabajos h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px; }
+  .trabajos .nota {
+    background-color: #f5f1ed;
+    height: 300px;
+    float: left;
+    width: 48%;
+    margin-bottom: 60px; }
+  .trabajos .primer {
+    margin-right: 2%;
+    width: 50%; }
+  .trabajos .proceso-cta {
+    background-color: #2f323a;
+    color: #f5f1ed;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    display: block;
+    width: 20%;
+    margin: auto;
+    text-align: center; }
 
 .servicios {
   width: 100%;
   background-color: #70798c;
-  height: 500px; }
+  padding: 100px 0px; }
+  .servicios h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+    color: #f5f1ed; }
+  .servicios .service-note {
+    width: 32%;
+    float: left;
+    height: 200px;
+    background-color: #f5f1ed; }
+  .servicios .service-margin {
+    width: 33%;
+    margin-right: 1%; }
 
 .team {
   width: 100%;
   background-color: white;
-  height: 500px; }
+  padding: 100px 0px 60px 0px; }
+  .team h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+    color: #2f323a; }
+  .team .team-note {
+    width: 31.3%;
+    float: left;
+    background-color: #a1cca5;
+    height: 100px;
+    margin-bottom: 60px; }
+  .team .team-margin {
+    width: 32.3%;
+    margin-right: 2%; }
 
 .contacto {
   width: 100%;
   background-color: #c38d94;
-  height: 500px; }
+  padding: 100px 0px; }
+  .contacto h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 100px;
+    color: #f5f1ed; }
+  .contacto .contact-form {
+    width: 100%; }
+    .contacto .contact-form .campos {
+      width: 25.3%;
+      float: left;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 40px;
+      font-size: 1.3em; }
+    .contacto .contact-form .campos-margin {
+      width: 25.3%;
+      margin-right: 12%; }
+    .contacto .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.3em;
+      margin-bottom: 40px; }
+    .contacto .contact-form .boton {
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      background: white;
+      display: block;
+      width: 25%;
+      position: absolute;
+      right: 0;
+      font-size: 1.3em; }
 
 footer {
   width: 100%;
