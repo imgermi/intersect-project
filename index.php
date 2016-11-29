@@ -29,20 +29,85 @@
       <div class="container">
         <h2>TRABAJOS</h2>
 
-        <article class="nota primer">
+        <div class="nota primer">
+          <article class="work-box work-1">
+            <!-- <img src="img/work-1.png" alt=""> -->
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-2 ">
+            <!-- <img src="img/work-2.png" alt=""> -->
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-3 ">
+            <!-- <img src="img/work-3.png" alt=""> -->
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-4 ">
+            <!-- <img src="img/work-4.png" alt=""> -->
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-5 ">
+            <!-- <img src="img/work-5.png" alt=""> -->
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-6 ">
+            <!-- <img src="img/work-6.png" alt=""> -->
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+        </div>
 
-        </article>
-        <article class="nota">
+        <div class="nota">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
 
-        </article>
+        <div class="nota primer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
 
-        <article class="nota primer">
-
-        </article>
-
-        <article class="nota">
-
-        </article>
+        <div class="nota">
+          <article class="work-box work-1-2">
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-2-2">
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-3-2">
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-4-2">
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-5-2">
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+          <article class="work-box work-6-2">
+            <div class="overlay">
+              <h2>LOREM IPSUM</h2>
+            </div>
+          </article>
+        </div>
 
 
         <!-- CLEANER -->

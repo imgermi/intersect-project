@@ -5,7 +5,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 10px;
   color: $dark-blue;
-
 }
 
 * {
@@ -69,14 +68,105 @@ body {
   }
   .nota {
     background-color: $frozen-white;
-    height: 300px;
     float: left;
     width: 48%;
     margin-bottom: 60px;
+    // line-height: 0;
   }
   .primer {
     margin-right: 2%;
     width: 50%;
+  }
+  .work-1 {
+    background: url('../img/work-1.png');
+  }
+  .work-2 {
+    background: url('../img/work-2.png');
+  }
+  .work-3 {
+    background: url('../img/work-3.png');
+  }
+  .work-4 {
+    background: url('../img/work-4.png');
+  }
+  .work-5 {
+    background: url('../img/work-5.png');
+  }
+  .work-6 {
+    background: url('../img/work-6.png');
+  }
+  .work-1-2 {
+    background: url('../img/work1-2.png');
+  }
+  .work-2-2 {
+    background: url('../img/work2-2.png');
+  }
+  .work-3-2 {
+    background: url('../img/work3-2.png');
+  }
+  .work-4-2 {
+    background: url('../img/work4-2.png');
+  }
+  .work-5-2 {
+    background: url('../img/work5-2.png');
+  }
+  .work-6-2 {
+    background: url('../img/work6-2.png');
+  }
+  .work-box{
+    width:50%;
+    float: left;
+    position: relative;
+    padding-top: 35%;
+    overflow: hidden;
+    perspective: 300px;
+    background: {
+      size: cover;
+      position: center center;
+      repeat:no-repeat;
+      // image: url('../img/work-2.png');
+    }
+
+    .overlay {
+      position: absolute;
+      height: 100%;
+      top: -50%;
+      left: 0px;
+      right: 0px;
+      bottom: null;
+      background: transparentize($green, 0.1);
+      opacity: 0;
+      transition: 250ms ease-in-out;
+      transform: rotateX(90deg);
+      transform-origin: center bottom;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+      h2 {
+        padding-top: 100px;
+        display: block;
+        opacity: 0;
+        font-size: 2em;
+        transition: 200ms 100ms ease-in-out;
+        transform: scale(0.5);
+        color: $frozen-white;
+      }
+    }
+    &:hover .overlay{
+      position: absolute;
+      top: 0%;
+      right: 0px;
+      bottom: null;
+      left: 0px;
+      cursor: pointer;
+      transform: rotateX(0deg);
+      opacity: 1;
+    }
+    &:hover .overlay h2 {
+      opacity: 1;
+      transform: scale(1);
+    }
   }
   .proceso-cta {
     background-color: $dark-blue;
